@@ -1,19 +1,19 @@
 #include<stdio.h>
 
 int main(){
-    int cp;
+    int cprice;
     printf("Enter cost price: ");
-    scanf("%d",&cp);
-    int sp;
+    scanf("%d",&cprice);
+    int sprice;
     printf("Enter sell price: ");
-    scanf("%d",&sp);
-    if(sp>cp){
+    scanf("%d",&sprice);
+    if(sprice>cprice){
         printf("Profit");
     }
-    if(cp>sp){
+    if(cprice>sprice){
         printf("Loss");
     }
-    if(cp==sp){
+    if(cprice==sprice){
         printf("No profit no loss....");
     }
 
