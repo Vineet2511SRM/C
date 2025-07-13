@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to check if three sides can form a triangle
+// Function to check if three sides can be able to form a triangle
 int is_valid_triangle(double a, double b, double c) {
     return (a + b > c) && (a + c > b) && (b + c > a);
 }
